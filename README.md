@@ -1,6 +1,6 @@
 # DesarrolloWeb3
 **Kenny Álvarez del Castillo Nava**
-## Practica 1: 
+## Practica 1 y 2: 
 ### HTML:
 https://k-enneth.github.io/DesarrolloWeb3/Practica1.html
 ### SCRIPT:
