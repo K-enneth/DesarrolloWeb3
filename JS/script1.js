@@ -39,3 +39,41 @@ $sociales.innerHTML = `
 <li> Correo: alcanamay@gmail.com </li>
 <li> Número: 557879173 </li>
 `
+
+const $evento = document.getElementById("eventos");
+$evento.innerHTML= "Eventos";
+
+const $boton1 = document.getElementById("boton1");
+$boton1.innerHTML= "Boton 1"
+
+function colores(e) {
+alert("Has presionado el primer boton");
+e.target.style.backgroundColor = "black";
+e.target.style.color = "red";
+e.target.innerText = "Cambiaste mi color";
+}
+
+$boton1.addEventListener("click",colores);
+
+const $boton2 = document.getElementById("boton2");
+$boton2.innerHTML= "Presioname dos veces"
+
+$boton2.addEventListener("dblclick", function(e){
+alert(`El evento que has ejecutado es de tipo: ${e.type}`);
+e.target.style.backgroundColor = "pink";
+e.target.style.color = "black";
+e.target.innerText = "Me presionaste dos veces"
+})
+
+const $radioThemes = document.querySelectorAll("input[name='theme']");
+console.log($radioThemes);
+
+
+document.addEventListener("click", (e) => {
+console.log(e.target.matches("input[name='theme']"));
+if (!e.target.matches("input[name='theme']")) return false;
+
+document.getElementById("theme").href = 
+    e.target.dataset.theme;
+alert(`Has activado el tema: ${e.target.dataset.name}`);
+});
