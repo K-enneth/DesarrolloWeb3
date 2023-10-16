@@ -73,7 +73,7 @@ document.addEventListener("click", (e) => {
 console.log(e.target.matches("input[name='theme']"));
 if (!e.target.matches("input[name='theme']")) return false;
 
-document.getElementById("theme").href = 
-    e.target.dataset.theme;
+$themeCSS = document.querySelector("#theme");
+$themeCSS.href = e.target.dataset.theme;
 alert(`Has activado el tema: ${e.target.dataset.name}`);
 });
