@@ -72,6 +72,12 @@ console.log($radioThemes);
 document.addEventListener("click", (e) => {
 console.log(e.target.matches("input[name='theme']"));
 if (!e.target.matches("input[name='theme']")) return false;
+console.log(e);
+console.log(e.target.matches(`input[name = "theme"]`));
+console.log(e.target.dataset);
+console.log(e.target.dataset.name);
+console.log(e.target.dataset.theme);
+
 
 $themeCSS = document.querySelector("#theme");
 $themeCSS.href = e.target.dataset.theme;
