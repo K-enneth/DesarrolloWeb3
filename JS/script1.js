@@ -78,7 +78,6 @@ console.log(e.target.dataset);
 console.log(e.target.dataset.name);
 console.log(e.target.dataset.theme);
 
-
 $themeCSS = document.querySelector("#theme");
 $themeCSS.href = e.target.dataset.theme;
 alert(`Has activado el tema: ${e.target.dataset.name}`);
