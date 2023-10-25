@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.form-data {
+    --form-btn-color: #0d6efd;
+    --form-border-color: #dee2e6;
+    --form-error-color: #f44336;
+    --form-placeholder-color: #666;
+    --form-success-color: #4caf50;
+    --form-text-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    border: thin solid var(--form-border-color);
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.form-control::placeholder {
+    color: var(--form-placeholder-color);
+}
+
+.form-control[required]:valid {
+    border: thin solid var(--form-success-color);
+}
+
+.form-control[required]:invalid {
+    border: thin solid var(--form-error-color);
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.form-btn {
+    border-radius: 0.25rem;
+    border: thin solid var(--form-border-color);
+    margin: auto;
+    padding: 0.5rem;
+    width: 50%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: var(--form-btn-color);
+    color: var(--form-text-color);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.form-btn:hover {
+    opacity: 0.85;
+    transform: translateY(-0.25rem);
+}
+
+.form-error,
+.form-response {
+    padding: 0.5rem;
+    font-size: 80%;
+    background-color: var(--form-error-color);
+    color: var(--form-text-color);
+    transition: all 800ms ease;
+}
+
+.form-response {
+    background-color: var(--form-success-color);
+    font-size: 110%;
+    text-align: center;
+}
+
+.form-error.is-active {
+    display: block;
+    animation: show-message 1s 1 normal 0s ease-out both;
+}
+
+.none {
+    display: none;
+}
