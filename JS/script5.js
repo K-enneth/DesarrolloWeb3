@@ -1,2 +1,2 @@
-import { validaciones } from "./Modulos/form";
+import { validaciones } from "./Modulos/form.js";
 validaciones(".contact-form");
