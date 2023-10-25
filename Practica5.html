@@ -56,17 +56,17 @@
             />
         </div>
         <div class="form-data">
-            <label class="form-label" for="color">Color favorito:</label>
-            <textarea
+            <label class="form-label" for="url">Url:</label>
+            <input
+            type="text"
             class="form-control"
-            name="color"
-            id="color"
-            placeholder="#22f9s7"
-            title="El color debe estar en formato hexadecimal"
-            data-pattern="^#?([a-f0-9]{6}|[a-f0-9]{3})$"
+            name="url"
+            id="url"
+            placeholder="url"
+            title="Ingrese un URL válido"
+            pattern="[Hh][Tt][Tt][Pp][Ss]?:\/\/(?:(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)(?:\.(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)*(?:\.(?:[a-zA-Z\u00a1-\uffff]{2,}))(?::\d{2,5})?(?:\/[^\s]*)?"
             required
-            ></textarea>
-        </div>
+        />
         <div class="my-3">
             <input type="submit" class="btn btn-primary" />
         </div>
