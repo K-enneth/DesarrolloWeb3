@@ -1,0 +1,31 @@
+{
+
+    "materias": [
+    {
+        "nombre": "Inteligencia artificial para videojuegos",
+        "docente": "Juan José López Banyo",
+        "desc": "Aprendemos a programar IA simple y aplicada a videojuegos"
+    },
+    {
+        "nombre": "Simulación Física para realidad virtual y videouegos",
+        "docente": "Ricardo Rodriguez",
+        "desc": "Aprendemos a simular fisicas en videojuegos"
+    },
+    {
+        "nombre": "Desarrollo de apps moviles",
+        "docente": "Diana Rodriguez",
+        "desc": "Aprendemos sobre interfaces en juegos moviles"
+    },
+    {
+        "nombre": "Proyecto Semestral IV",
+        "docente": "Rodrigo Saco",
+        "desc": "Aprendemos a programar juegos para VR en Unity"
+    },
+    {
+        "nombre": "Desarollo Web",
+        "docente": "Jonathan Mircha",
+        "desc": "Aprendemos programacion JavaScript, HTML y CSS"
+    }
+
+    ]
+}
