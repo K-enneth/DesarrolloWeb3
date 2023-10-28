@@ -4,7 +4,7 @@ async function obtenerDatosDelJSON() {
 let html = "";
 
 try {
-    let res = await fetch("JS/mat.json");
+    let res = await fetch("https://k-enneth.github.io/DesarrolloWeb3/JS/mat.json");
 
 
     if (!res.ok) {
