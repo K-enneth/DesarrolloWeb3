@@ -15,3 +15,8 @@ https://github.com/K-enneth/DesarrolloWeb3/blob/main/JS/script5.js
 https://k-enneth.github.io/DesarrolloWeb3/Practica6.html
 ### SCRIPT:
 https://github.com/K-enneth/DesarrolloWeb3/blob/main/JS/script6.js
+## Practica 7: 
+### HTML:
+https://k-enneth.github.io/DesarrolloWeb3/Practica7.html
+### SCRIPT:
+https://github.com/K-enneth/DesarrolloWeb3/blob/main/JS/script7.js
