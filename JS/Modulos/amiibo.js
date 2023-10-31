@@ -26,7 +26,7 @@ export function amiiboSearch(search, selector){
             <div class="amiibo">
                 <h3>${el.character}</h3>
                 <img src="${el.image}" alt="${el.character}" />
-                ${el.type}
+                ${el.amiiboSeries}
             </div>
             `;
             })
